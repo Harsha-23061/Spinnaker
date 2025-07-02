@@ -1,11 +1,10 @@
 #!/bin/bash
 
 # env flags that need to be set:
-CLIENT_ID=myClientId
-CLIENT_SECRET=myClientSecret
-PROVIDER=google|github|azure
-REDIRECT_URI=http://ip:8084/login
-
+CLIENT_ID="Ov23limKCZUs0TQXPgV7"
+CLIENT_SECRET="31326fb7e0f4521f6947cd521b66a83b6c2bdac8"
+PROVIDER="github"
+REDIRECT_URI="http://3.237.11.112:8084/login"
 set -e
 
 if [ -z "${CLIENT_ID}" ] ; then
